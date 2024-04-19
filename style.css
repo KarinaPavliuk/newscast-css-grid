@@ -1,0 +1,40 @@
+.weather-icon,
+.clock-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.youtube {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px #0000001a;
+}
+
+.facebook {
+  background-color: #1b7bfd;
+}
+
+.twitter {
+  background-color: #42c0f5;
+}
+
+.instagram {
+  background-color: #c23785;
+}
+
+.youtube {
+  background-color: #ef5043;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  /* padding: 8px; */
+}

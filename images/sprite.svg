@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+<defs>
+<!-- icon-arrow -->
+<symbol id="icon-arrow" viewBox="0 0 19 32"><path fill="#fff" d="M0 16 14 2l4 5-9 9 9 9-4 5L0 16z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-behance -->
+<symbol id="icon-behance" viewBox="0 0 51 32"><path fill="#fff" d="M16 2a14 14 0 0 1 7 1l1 3 1 3-1 4-3 2 4 3 1 4v4l-3 3-3 1-4 1H2V2h14zm-1 12 3-1 1-3V8l-1-1H9v7h6zm0 12h2a4 4 0 0 0 3-2v-2l-1-3-4-1H9v8h6zm21 0 3 1 3-1 2-1h5l-4 5-6 2-4-1-4-2-2-4v-9l3-4 3-2a12 12 0 0 1 9 0l3 3 2 4v5H34l2 4zm6-11-3-1h-2l-2 1-1 2v1h10l-2-3zM33 4h12v3H33V4z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-clock -->
+<symbol id="icon-clock" viewBox="0 0 32 32"><path d="M16 31a15 15 0 1 1 0-30 15 15 0 0 1 0 30zm0-3a12 12 0 1 0 0-24 12 12 0 0 0 0 24zm2-12h6v3H14V8h4v8z"/></symbol>
+<!-- icon-dribble -->
+<symbol id="icon-dribble" viewBox="0 0 32 32"><path fill="#fff" d="m28 15-2-6-2 1-5 3 1 2a29 29 0 0 1 8 0zM14 4l4 7a17 17 0 0 0 6-4 12 12 0 0 0-10-3zM4 13a45 45 0 0 0 11-1l-4-7a12 12 0 0 0-7 8zm3 11a22 22 0 0 1 10-8l-1-2a46 46 0 0 1-12 2c0 3 1 6 3 8zm14 3-3-8a19 19 0 0 0-9 7 12 12 0 0 0 12 1zm2-1c3-2 4-5 5-8a19 19 0 0 0-7 0l2 8zm-7 5a15 15 0 1 1 0-30 15 15 0 0 1 0 30z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-facebook -->
+<symbol id="icon-facebook" viewBox="0 0 18 32"><path fill="#fff" d="M12 18h4l2-6h-6V9c0-1 0-3 3-3h3V1h-5C9 1 6 3 6 8v4H2v6h4v13h6V18z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-instagram -->
+<symbol id="icon-instagram" viewBox="0 0 32 32"><path fill="#fff" d="M16 1a106 106 0 0 1 10 1l3 1 1 3 1 4a110 110 0 0 1-1 16l-1 3-3 1-4 1a110 110 0 0 1-16-1l-3-1-1-3-1-4A110 110 0 0 1 2 6l1-3 3-1 4-1h6zm0 7a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm10 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0zm-10 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-search -->
+<symbol id="icon-search" viewBox="0 0 32 32"><path fill="#fff" d="m23 21 7 6-3 3-6-7c-2 2-5 3-8 3a13 13 0 1 1 10-5zm-3-1a10 10 0 0 0-7-17 10 10 0 1 0 7 17z" opacity=".3" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-twitter -->
+<symbol id="icon-twitter" viewBox="0 0 37 32"><path fill="#fff" d="m37 5-5 1 4-4-5 2a7 7 0 0 0-13 6l-8-2-7-5a7 7 0 0 0 2 10l-3-1a7 7 0 0 0 6 7H5a7 7 0 0 0 7 5l-6 3H0c4 3 8 4 12 4A21 21 0 0 0 33 9l4-4z" style="fill:var(--color1, #fff)"/></symbol>
+<!-- icon-weather -->
+<symbol id="icon-weather" viewBox="0 0 37 32"><path d="M9 20a9 9 0 1 1 18 0H9zm-6 3h15v3H3v-3zm18 0h13v3H21v-3zm3 6h6v3h-6v-3zM6 29h15v3H6v-3zM17 2h3v4h-3V2zM5 8l3-3 3 4-2 2-4-3zm24-3 2 3-3 3-2-2 3-4zm6 12v3h-5v-3h5zM6 17v3H2v-3h4z"/></symbol>
+<!-- icon-youtube -->
+<symbol id="icon-youtube" viewBox="0 0 37 32"><path fill="#fff" d="M36 6v20c-1 2-2 3-4 3l-13 1-14-1c-2 0-3-1-3-3L1 16 2 6c0-2 1-3 3-3l14-1 13 1c2 0 3 1 4 3zM15 22l11-6-11-6v12z" style="fill:var(--color1, #fff)"/></symbol>
+</defs>
+</svg>
