@@ -1,0 +1,44 @@
+.subheader {
+  padding: 26px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.subheader-logo {
+  width: 247px;
+  height: 62px;
+}
+
+.subheader-advertising {
+  width: 771px;
+  height: 90px;
+  padding: 16px 28px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  background-image: url(/images/subheader-back-img-1x.png);
+  color: var(--white-brand-color);
+}
+
+.subheader-advertising-text {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.subheader-advertising-text :last-child {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  color: var(--main-brand-color);
+}
+
+.subheader-advertising-button {
+  width: 180px;
+  height: 44px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white-brand-color);
+  background-color: var(--main-brand-color);
+  border: none;
+}

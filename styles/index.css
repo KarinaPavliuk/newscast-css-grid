@@ -1,0 +1,73 @@
+@import-normalize;
+
+:root {
+  --white-brand-color: #ffffff;
+  --main-brand-color: #f65050;
+  --second-brand-color: #393939;
+  --facebook-icon-color: #1b7bfd;
+  --twitter-icon-color: #42c0f5;
+  --instagram-icon-color: #c23785;
+  --youtube-icon-color: #ef5043;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-variation-settings: 'wdth' 100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}

@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/subheader.css" />
+    <link rel="stylesheet" href="/styles/navigation.css" />
     <title>Document</title>
   </head>
   <body>
@@ -27,6 +36,7 @@
         <p class="header-secondary-title">
           Indonesia says located black box recorders from crashed plane
         </p>
+
         <ul class="header-social-media">
           <li class="facebook">
             <svg class="social-icon">
@@ -51,7 +61,60 @@
         </ul>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <section class="subheader">
+          <img
+            class="subheader-logo"
+            src="/images/logo-1x.png"
+            alt="Logo Newscast"
+          />
+          <div class="subheader-advertising">
+            <p class="subheader-advertising-text">
+              <span>Best Selling BLOG and MAGAZINE</span>
+              <span>Theme of All Time</span>
+              <span>Experience the change!</span>
+            </p>
+            <button class="subheader-advertising-button" type="button">
+              PURCHASE NOW
+            </button>
+          </div>
+        </section>
+        <section class="navigation">
+          <nav>
+            <ul class="navigation-list">
+              <li>Home</li>
+              <li>International</li>
+              <li>Sports</li>
+              <li>Opinion</li>
+              <li>Business</li>
+              <li>Youth</li>
+              <li>Entertainment</li>
+              <li>Lifestyle</li>
+              <li>
+                Pages
+                <svg class="arrow-down-icon">
+                  <use href="./images/sprite.svg#icon-arrow"></use>
+                </svg>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="navigation-search-bar">
+            <input
+              class="navigation-search-input"
+              type="text"
+              placeholder="Search for"
+            />
+            <button class="navigation-search-button" type="button">
+              <svg class="search-icon">
+                <use href="./images/sprite.svg#icon-search"></use>
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
