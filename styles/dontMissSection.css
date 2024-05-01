@@ -1,0 +1,5 @@
+.news-section-dont-miss {
+  display: grid;
+  grid-area: 4 / 1 / 5 / 5;
+  background-color: cadetblue;
+}
