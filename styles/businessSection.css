@@ -1,9 +1,20 @@
+.business-section {
+  margin-bottom: 48px;
+}
+
 .business-section-list {
   height: 570px;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 16px;
+  color: var(--white-brand-color);
+}
+
+.business-section-item {
+  padding: 24px;
+  display: grid;
+  align-content: space-between;
 }
 
 .business-section-item:nth-child(1) {
@@ -22,14 +33,44 @@
   background-image: url('/images/business-section-light-bulb.png');
 }
 
-.business-section-item-mark:nth-child(1) {
+.business-section-item-label,
+.blue-label {
   width: 54px;
   height: 22px;
   font-size: 10px;
   display: grid;
   align-items: center;
   justify-items: center;
-  color: var(--white-brand-color);
   background-color: #0088ff;
 }
-.business-section-item-mark: nth-child(1);
+
+.yellow-label {
+  background-color: #997c00;
+}
+
+.cyan-label {
+  background-color: #49cfe8;
+}
+
+.business-section-item-date,
+.twelve-px {
+  font-size: 12px;
+}
+
+.ten-px {
+  font-size: 10px;
+}
+
+.business-section-item-title,
+.big-title {
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.medium-title {
+  font-size: 24px;
+}
+
+.small-title {
+  font-size: 14px;
+}
