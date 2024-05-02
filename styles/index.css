@@ -75,7 +75,7 @@ html {
 .main-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr) 271px;
-  grid-template-rows: 141px 85px 620px 516px 516px repeat(7, 1fr);
+  grid-template-rows: 141px 85px 620px 516px 692px 552px 220px 722px 818px 288px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }

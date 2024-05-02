@@ -35,22 +35,24 @@
   background-image: url('/images/business-section-light-bulb.png');
 }
 
-.business-section-item-label,
-.blue-label {
+.business-section-item-label {
   width: 54px;
   height: 22px;
   font-size: 10px;
   display: grid;
   align-items: center;
   justify-items: center;
+}
+
+.blue {
   background-color: #0088ff;
 }
 
-.yellow-label {
+.mustard {
   background-color: #997c00;
 }
 
-.cyan-label {
+.cyan {
   background-color: #49cfe8;
 }
 
