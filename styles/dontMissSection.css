@@ -1,24 +1,59 @@
-.news-section-dont-miss {
+.dont-miss-section {
   display: grid;
   grid-area: 4 / 1 / 5 / 5;
-  background-color: cadetblue;
+  grid-template-rows: 44px auto;
+  row-gap: 24px;
+  margin-bottom: 36px;
+}
+
+.dont-miss-section-header {
+  display: grid;
+  grid-template-columns: 140px auto;
+  align-items: flex-end;
 }
 
 .dont-miss-section-title {
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
   font-weight: 500;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--main-brand-color);
   color: var(--main-brand-color);
 }
 
+.dont-miss-section-navigation {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #393939;
+}
+
 .dont-miss-section-navigation-list {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-column-gap: 12px;
+  justify-content: end;
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
   color: var(--white-brand-color);
 }
 
 .dont-miss-section-navigation-item {
-  padding: 0px 14px;
+  height: 20px;
+  padding: 0px 9px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dont-miss-section-navigation-item:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 4px;
+}
+
+.dont-miss-section-navigation-item .arrow-down-icon {
+  width: 8px;
+  height: 8px;
 }
 
 .pink {
@@ -35,4 +70,45 @@
 
 .violet {
   background-color: #4c60f5;
+}
+
+.dont-miss-section-content {
+  display: grid;
+  grid-template-columns: 393px auto;
+  column-gap: 30px;
+}
+
+.dont-miss-section-content-main-article {
+  display: grid;
+  grid-template-rows: 250px auto;
+  row-gap: 24px;
+}
+
+.dont-miss-section-content-list {
+  display: grid;
+  grid-template-rows: repeat(5, 70px);
+  row-gap: 14px;
+}
+
+.dont-miss-section-content-item {
+  display: grid;
+  grid-template-columns: 90px auto;
+  column-gap: 20px;
+}
+
+.dont-miss-section-content-title {
+  margin-bottom: 6px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.dont-miss-section-content-date {
+  margin-bottom: 6px;
+}
+
+.eighteen-px {
+  font-size: 18px;
+}
+
+.dont-miss-section-content-description {
+  color: #39393999;
 }
