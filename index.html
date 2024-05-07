@@ -32,14 +32,14 @@
       <div class="container header-container">
         <p class="header-weather">
           <svg class="weather-icon">
-            <use href="./images/sprite.svg#icon-weather"></use>
+            <use href="./images/svg/sprite.svg#icon-weather"></use>
           </svg>
           <span>15&deg;C</span>
           <span>New York</span>
         </p>
         <p class="header-date">
           <svg class="clock-icon">
-            <use href="./images/sprite.svg#icon-clock"></use>
+            <use href="./images/svg/sprite.svg#icon-clock"></use>
           </svg>
           <span>Wednesday, 10 January 2021</span>
         </p>
@@ -49,24 +49,24 @@
         </p>
 
         <ul class="header-social-media">
-          <li class="facebook">
+          <li class="social-icon-wrapper facebook">
             <svg class="social-icon">
-              <use href="./images/sprite.svg#icon-facebook"></use>
+              <use href="./images/svg/sprite.svg#icon-facebook"></use>
             </svg>
           </li>
-          <li class="twitter">
+          <li class="social-icon-wrapper twitter">
             <svg class="social-icon">
-              <use href="./images/sprite.svg#icon-twitter"></use>
+              <use href="./images/svg/sprite.svg#icon-twitter"></use>
             </svg>
           </li>
-          <li class="instagram">
+          <li class="social-icon-wrapper instagram">
             <svg class="social-icon">
-              <use href="./images/sprite.svg#icon-instagram"></use>
+              <use href="./images/svg/sprite.svg#icon-instagram"></use>
             </svg>
           </li>
-          <li class="youtube">
+          <li class="social-icon-wrapper youtube">
             <svg class="social-icon">
-              <use href="./images/sprite.svg#icon-youtube"></use>
+              <use href="./images/svg/sprite.svg#icon-youtube"></use>
             </svg>
           </li>
         </ul>
@@ -74,23 +74,25 @@
     </header>
     <main>
       <div class="main-grid-container container">
+        <!-- SUBHEADER -->
         <section class="subheader">
           <img
             class="subheader-logo"
-            src="/images/logo-1x.png"
+            src="/images/logo.png"
             alt="Logo Newscast"
           />
-          <div class="subheader-advertising">
-            <p class="subheader-advertising-text">
+          <div class="advertising">
+            <p class="advertising-text">
               <span>Best Selling BLOG and MAGAZINE</span>
               <span>Theme of All Time</span>
               <span>Experience the change!</span>
             </p>
-            <button class="subheader-advertising-button" type="button">
+            <button class="advertising-button" type="button">
               PURCHASE NOW
             </button>
           </div>
         </section>
+        <!-- NAVIGATION -->
         <section class="navigation">
           <nav>
             <ul class="navigation-list">
@@ -105,7 +107,7 @@
               <li>
                 Pages
                 <svg class="arrow-down-icon">
-                  <use href="./images/sprite.svg#icon-arrow"></use>
+                  <use href="./images/svg/sprite.svg#icon-arrow"></use>
                 </svg>
               </li>
             </ul>
@@ -119,11 +121,12 @@
             />
             <button class="navigation-search-button" type="button">
               <svg class="search-icon">
-                <use href="./images/sprite.svg#icon-search"></use>
+                <use href="./images/svg/sprite.svg#icon-search"></use>
               </svg>
             </button>
           </div>
         </section>
+        <!-- BUSINESS -->
         <section class="business-section">
           <ul class="business-section-list">
             <li class="business-section-item">
@@ -132,7 +135,7 @@
                 <p class="business-section-item-date twelve-px">
                   Craig Bator - 27 Dec 2020
                 </p>
-                <p class="business-section-item-title big-title">
+                <p class="business-section-item-title thirty-six-px">
                   After all is said and done, more is done
                 </p>
               </div>
@@ -143,7 +146,7 @@
                 <p class="business-section-item-date ten-px">
                   Craig Bator - 27 Dec 2020
                 </p>
-                <p class="business-section-item-title small-title">
+                <p class="business-section-item-title fourteen-px">
                   They're back! Kennedy Darling named to return to
                 </p>
               </div>
@@ -154,7 +157,7 @@
                 <p class="business-section-item-date ten-px">
                   Craig Bator - 27 Dec 2020
                 </p>
-                <p class="business-section-item-title small-title">
+                <p class="business-section-item-title fourteen-px">
                   Swiss authorities say Uber drivers should
                 </p>
               </div>
@@ -165,121 +168,142 @@
                 <p class="business-section-item-date twelve-px">
                   Craig Bator - 27 Dec 2020
                 </p>
-                <p class="business-section-item-title medium-title">
+                <p class="business-section-item-title twenty-four-px">
                   Tourism in Dubai is booming by international tourist
                 </p>
               </div>
             </li>
           </ul>
         </section>
+        <!-- DON'T MISS -->
         <section class="dont-miss-section">
-          <div class="dont-miss-section-header">
-            <h2 class="dont-miss-section-title">Don't Miss</h2>
-            <nav class="dont-miss-section-navigation">
-              <ul class="dont-miss-section-navigation-list">
-                <li class="dont-miss-section-navigation-item pink">All</li>
-                <li class="dont-miss-section-navigation-item purple">
-                  Lifestyle
-                </li>
-                <li class="dont-miss-section-navigation-item green">Vogue</li>
-                <li class="dont-miss-section-navigation-item blue">
-                  Health & Fitness
-                </li>
-                <li class="dont-miss-section-navigation-item mustard">
-                  Travel
-                </li>
-                <li class="dont-miss-section-navigation-item cyan">Gadgets</li>
-                <li class="dont-miss-section-navigation-item blue">World</li>
-                <li class="dont-miss-section-navigation-item violet">
+          <header class="dont-miss-section-header">
+            <h2 class="sections-title">Don't Miss</h2>
+            <nav class="section-navigation">
+              <ul
+                class="dont-miss-section-navigation-list section-navigation-list"
+              >
+                <li class="section-navigation-item pink">All</li>
+                <li class="section-navigation-item purple">Lifestyle</li>
+                <li class="section-navigation-item green">Vogue</li>
+                <li class="section-navigation-item blue">Health & Fitness</li>
+                <li class="section-navigation-item mustard">Travel</li>
+                <li class="section-navigation-item cyan">Gadgets</li>
+                <li class="section-navigation-item blue">World</li>
+                <li class="section-navigation-item more-button violet">
                   More
                   <svg class="arrow-down-icon">
-                    <use href="./images/sprite.svg#icon-arrow"></use>
+                    <use href="./images/svg/sprite.svg#icon-arrow"></use>
                   </svg>
                 </li>
               </ul>
             </nav>
-          </div>
+          </header>
           <div class="dont-miss-section-content">
-            <div class="dont-miss-section-content-main-article">
-              <img src="/images/dont-miss-main-img.png" alt="Conference" />
+            <div>
+              <div class="main-article-image-wrapper">
+                <img
+                  src="/images/dont-miss-section/conference.png"
+                  alt="Conference"
+                />
+                <p class="main-article-label purple">Business</p>
+              </div>
               <div>
-                <p class="dont-miss-section-content-date ten-px">
-                  Craig Bator - 27 Dec 2020
-                </p>
-                <p class="dont-miss-section-content-title eighteen-px">
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title eighteen-px">
                   Now Is the Time to Think About Your Small Business Success
                 </p>
-                <p class="dont-miss-section-content-description">
+                <p class="article-description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Faucibus lobortis augue condimentum maecenas. Metus at in
                   fames vitae posuere ut vel vulputate....
                 </p>
               </div>
             </div>
-            <ul class="dont-miss-section-content-list">
-              <li class="dont-miss-section-content-item">
+            <ul class="articles-list">
+              <li class="articles-list-item">
                 <img
-                  src="/images/dont-miss-list-img-writing.png"
+                  src="/images/dont-miss-section/writing.png"
                   alt="Person writing"
                 />
                 <div>
-                  <p class="dont-miss-section-content-date ten-px">
+                  <p
+                    class="dont-miss-section-content-date sections-date ten-px"
+                  >
                     Craig Bator - 27 Dec 2020
                   </p>
-                  <p class="dont-miss-section-content-title small-title">
+                  <p
+                    class="dont-miss-section-content-title sections-list-title fifteen-px"
+                  >
                     Penn's expanding political climate gears up fo 2020 election
                   </p>
                 </div>
               </li>
-              <li class="dont-miss-section-content-item">
-                <img src="/images/dont-miss-list-img-laptop.png" alt="Laptop" />
+              <li class="articles-list-item">
+                <img src="/images/dont-miss-section/laptop.png" alt="Laptop" />
                 <div>
-                  <p class="dont-miss-section-content-date ten-px">
+                  <p
+                    class="dont-miss-section-content-date sections-date ten-px"
+                  >
                     Craig Bator - 27 Dec 2020
                   </p>
-                  <p class="dont-miss-section-content-title small-title">
+                  <p
+                    class="dont-miss-section-content-title sections-list-title fifteen-px"
+                  >
                     Things to Look For in a Financial Trading Platform
                   </p>
                 </div>
               </li>
-              <li class="dont-miss-section-content-item">
+              <li class="articles-list-item">
                 <img
-                  src="/images/dont-miss-list-img-person-laptop.png"
+                  src="/images/dont-miss-section/person-laptop.png"
                   alt="A person with laptop"
                 />
                 <div>
-                  <p class="dont-miss-section-content-date ten-px">
+                  <p
+                    class="dont-miss-section-content-date sections-date ten-px"
+                  >
                     Craig Bator - 27 Dec 2020
                   </p>
-                  <p class="dont-miss-section-content-title small-title">
+                  <p
+                    class="dont-miss-section-content-title sections-list-title fifteen-px"
+                  >
                     The only thing that overcomes hard luck is hard work
                   </p>
                 </div>
               </li>
-              <li class="dont-miss-section-content-item">
+              <li class="articles-list-item">
                 <img
-                  src="/images/dont-miss-list-img-note.png"
+                  src="/images/dont-miss-section/note.png"
                   alt="A person takes note"
                 />
                 <div>
-                  <p class="dont-miss-section-content-date ten-px">
+                  <p
+                    class="dont-miss-section-content-date sections-date ten-px"
+                  >
                     Craig Bator - 27 Dec 2020
                   </p>
-                  <p class="dont-miss-section-content-title small-title">
+                  <p
+                    class="dont-miss-section-content-title sections-list-title fifteen-px"
+                  >
                     Success is not a good teacher failure makes you humble
                   </p>
                 </div>
               </li>
-              <li class="dont-miss-section-content-item">
+              <li class="articles-list-item">
                 <img
-                  src="/images/dont-miss-list-img-productivity.png"
+                  src="/images/dont-miss-section/productivity.png"
                   alt="A wall with the word 'productivity' written on it"
                 />
                 <div>
-                  <p class="dont-miss-section-content-date ten-px">
+                  <p
+                    class="dont-miss-section-content-date sections-date ten-px"
+                  >
                     Craig Bator - 27 Dec 2020
                   </p>
-                  <p class="dont-miss-section-content-title small-title">
+                  <p
+                    class="dont-miss-section-content-title sections-list-title fifteen-px"
+                  >
                     At Value-Focused Hotels, the Free Breakfast Gets Bigger
                   </p>
                 </div>
@@ -287,34 +311,434 @@
             </ul>
           </div>
         </section>
-        <section class="news-section-recent">news-section-recent</section>
-        <section class="news-section-entertainment">
-          news-section-entertainment
+        <!-- RECENT -->
+        <section class="recent-section">
+          <header>
+            <nav>
+              <ul class="recent-section-navigation-list">
+                <li class="recent-section-navigation-item">Recent</li>
+                <li class="recent-section-navigation-item">Trending</li>
+                <li class="recent-section-navigation-item">Most Views</li>
+              </ul>
+            </nav>
+          </header>
+          <div>
+            <ul class="articles-list">
+              <li class="articles-list-item">
+                <img src="/images/recent-section/eggs.png" alt="eggs" />
+                <div>
+                  <p class="recent-section-date sections-date eight-px">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p class="sections-list-title fifteen-px">
+                    Gluten-Free Almond Cake with Berries
+                  </p>
+                </div>
+              </li>
+              <li class="articles-list-item">
+                <img
+                  src="/images/recent-section/breakfast.png"
+                  alt="breakfast"
+                />
+                <div>
+                  <p class="recent-section-date sections-date eight-px">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p class="sections-list-title fifteen-px">
+                    Enjoy My Favourite Molten Chocolate Cake
+                  </p>
+                </div>
+              </li>
+              <li class="articles-list-item">
+                <img src="/images/recent-section/pasta.png" alt="pasta" />
+                <div>
+                  <p class="recent-section-date sections-date eight-px">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p class="sections-list-title fifteen-px">
+                    They back return to you Kennedy Darlings
+                  </p>
+                </div>
+              </li>
+              <li class="articles-list-item">
+                <img src="/images/recent-section/car.png" alt="car" />
+                <div>
+                  <p class="recent-section-date sections-date eight-px">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p class="sections-list-title fifteen-px">
+                    The art of racing with speed Motor GP
+                  </p>
+                </div>
+              </li>
+              <li class="articles-list-item">
+                <img src="/images/recent-section/arena.png" alt="arena" />
+                <div>
+                  <p class="recent-section-date sections-date eight-px">
+                    Craig Bator - 27 Dec 2020
+                  </p>
+                  <p class="sections-list-title fifteen-px">
+                    Home team takes the win - NBA 2020
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
-        <section class="news-section-sports">news-section-sports</section>
-        <section class="news-section-stay-connected">
-          news-section-stay-connected
+        <!-- ENTERTAINMENR -->
+        <section class="entertainment-section">
+          <header class="entertainment-section-header">
+            <h2 class="sections-title">Entertainment</h2>
+            <div class="arrow-button-wrapper border-button">
+              <button class="arrow-button" type="button">
+                <svg class="arrow-button-icon left-arrow">
+                  <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <button class="arrow-button" type="button">
+                <svg class="arrow-button-icon right-arrow">
+                  <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </header>
+          <div class="entertainment-main-article">
+            <p class="entertainment-main-article-label blue">Hollywood</p>
+            <div>
+              <p class="entertainment-main-article-title twenty-four-px">
+                Amanda Seyfried became ‘really obsessed’ with ghost stories
+              </p>
+              <p class="entertainment-main-article-description eighteen-px">
+                Hollywood actress Amanda Seyfried has recalled the time when she
+                became obsessed with ghost stories
+              </p>
+            </div>
+          </div>
+          <ul class="entertainment-content-list">
+            <li class="entertainment-content-item">
+              <div class="entertainment-image-wrapper">
+                <img
+                  src="/images/entertainment-section/girl-in-coat.png"
+                  alt="girl in coat"
+                />
+                <p class="entertainment-label blue eight-px">Hollywood</p>
+              </div>
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Amanda Seyfried became ‘really obsessed’ with ghost stories
+                </p>
+              </div>
+            </li>
+            <li class="entertainment-content-item">
+              <div class="entertainment-image-wrapper">
+                <img
+                  src="/images/entertainment-section/man-in-hat.png"
+                  alt="girl in coat"
+                />
+                <p class="entertainment-label cyan eight-px">Bollywood</p>
+              </div>
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Irrfan Khan’s Last film “ The Song of Scorpions” to release in
+                  2021
+                </p>
+              </div>
+            </li>
+            <li class="entertainment-content-item">
+              <div class="entertainment-image-wrapper">
+                <img
+                  src="/images/entertainment-section/girl-in-wreath.png"
+                  alt="girl in coat"
+                />
+                <p class="entertainment-label green eight-px">Entertainment</p>
+              </div>
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Apee Karim blessed with a daughter
+                </p>
+              </div>
+            </li>
+          </ul>
         </section>
-        <section class="news-section-life-style">
-          news-section-life-style
-          <div class="subheader-advertising">
-            <p class="subheader-advertising-text">
+        <!-- SPORTS -->
+        <section class="sports-section">
+          <header class="sports-section-header">
+            <h2 class="sections-title">Sports</h2>
+            <nav class="sports-section-navigation">
+              <ul
+                class="sports-section-navigation-list section-navigation-list"
+              >
+                <li class="section-navigation-item pink">All</li>
+                <li class="section-navigation-item purple">Football</li>
+                <li class="section-navigation-item green">Cricket</li>
+                <li class="section-navigation-item blue">Basketball</li>
+                <li class="section-navigation-item mustard">Badminton</li>
+                <li class="section-navigation-item cyan">Boxing</li>
+                <li class="section-navigation-item blue">Esports</li>
+              </ul>
+              <div class="arrow-button-wrapper">
+                <button class="arrow-button" type="button">
+                  <svg class="arrow-button-icon left-arrow">
+                    <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <button class="arrow-button" type="button">
+                  <svg class="arrow-button-icon right-arrow">
+                    <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+          </header>
+          <div>
+            <div class="main-article-image-wrapper">
+              <img src="/images/sports-section/tribunes.png" alt="Conference" />
+              <p class="main-article-label green">Cricket</p>
+            </div>
+            <div>
+              <p class="sports-date sections-date ten-px">
+                Craig Bator - 27 Dec 2020
+              </p>
+              <p class="sports-list-title sections-list-title eighteen-px">
+                Now Is the Time to Think About Your Small Business Success
+              </p>
+              <p class="article-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus lobortis augue condimentum maecenas. Metus at in fames
+                vitae posuere ut vel vulputate....
+              </p>
+            </div>
+          </div>
+          <ul class="articles-list">
+            <li class="articles-list-item">
+              <img src="/images/sports-section/baseball.png" alt="Baseball" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  South Africa hammer injury-hit Sri Lanka Player
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img src="/images/sports-section/cricket.png" alt="Cricket" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Southee-lead New Zealand have Pakistan on the ropes
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img src="/images/sports-section/stadium.png" alt="Stadium" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  The only thing that overcomes hard luck is hard work
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img
+                src="/images/sports-section/baseball-players.png"
+                alt="Baseball players"
+              />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Success is not a good teacher failure makes you humble
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img
+                src="/images/sports-section/cricket-player.png"
+                alt="Cricket player"
+              />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title fifteen-px">
+                  Rahane-led India bury ghosts of Adelaide at Melbourne
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- STAY CONNECTED -->
+        <section class="stay-connected-section">
+          <header class="stay-connected-header">Stay Connected</header>
+          <ul class="stay-connected-social-list eight-px">
+            <li class="social-list-item facebook">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-facebook"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+            <li class="social-list-item instagram">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-instagram"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+            <li class="social-list-item youtube">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-youtube"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+            <li class="social-list-item twitter">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-twitter"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+            <li class="social-list-item behance">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-behance"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+
+            <li class="social-list-item dribble">
+              <svg class="social-icon">
+                <use href="./images/svg/sprite.svg#icon-dribble"></use>
+              </svg>
+              <p>15000 Followers</p>
+            </li>
+          </ul>
+          <img src="/images/stay-connected-ad.png" alt="dish" />
+        </section>
+        <!-- LIFE STYLE -->
+        <section class="life-style-section">
+          <header class="life-style-section-header">
+            <h2 class="sections-title">Life Style</h2>
+            <nav class="life-style-navigation">
+              <ul class="life-style-navigation-list section-navigation-list">
+                <li class="section-navigation-item pink">All</li>
+                <li class="section-navigation-item purple">Travel</li>
+                <li class="section-navigation-item green">Recipes</li>
+                <li class="section-navigation-item blue">Health & Fitness</li>
+                <li class="section-navigation-item mustard">Music</li>
+              </ul>
+              <div class="arrow-button-wrapper">
+                <button class="arrow-button" type="button">
+                  <svg class="arrow-button-icon left-arrow">
+                    <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <button class="arrow-button" type="button">
+                  <svg class="arrow-button-icon right-arrow">
+                    <use href="./images/svg/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+          </header>
+          <ul class="life-style-big-articles-list">
+            <li>
+              <div class="main-article-image-wrapper">
+                <img
+                  src="/images/life-style-section/stethoscope.png"
+                  alt="Stethoscope"
+                />
+                <p class="main-article-label mustard">Health & Fitness</p>
+              </div>
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  ‘Institutional Delivery Vital For Reducing Maternal And
+                  Neonatal Deaths’
+                </p>
+                <p class="article-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="main-article-image-wrapper">
+                <img
+                  src="/images/life-style-section/laboratory-assistant.png"
+                  alt="Laboratory assistant"
+                />
+                <p class="main-article-label green">Health & Fitness</p>
+              </div>
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  Being Self-Controlled Child May Lead To Healthier Middle-Age
+                </p>
+                <p class="article-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="life-style-articles-list articles-list">
+            <li class="articles-list-item">
+              <img src="/images/life-style-section/dog.png" alt="Dog" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  Best things you can do on a solo mountain climb
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img src="/images/life-style-section/kitchen.png" alt="Kitchen" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  How to use basic design principles your home
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img src="/images/life-style-section/door.png" alt="Door" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  The only thing that overcomes hard luck is hard work
+                </p>
+              </div>
+            </li>
+            <li class="articles-list-item">
+              <img src="/images/life-style-section/stairs.png" alt="Stairs" />
+              <div>
+                <p class="sections-date ten-px">Craig Bator - 27 Dec 2020</p>
+                <p class="sections-list-title twenty-four-px">
+                  Creative decorationg with houseplants
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="advertising">
+            <p class="advertising-text">
               <span>Best Selling BLOG and MAGAZINE</span>
               <span>Theme of All Time</span>
               <span>Experience the change!</span>
             </p>
-            <button class="subheader-advertising-button" type="button">
+            <button class="advertising-button" type="button">
               PURCHASE NOW
             </button>
           </div>
         </section>
+        <!-- LATEST UPDATE -->
         <section class="news-section-latest-updates">
           news-section-latest-updates
         </section>
-        <section class="news-section-сategories">
-          news-section-сategories
+        <!-- CATEGORIES -->
+        <section class="news-section-categories">
+          news-section-categories
         </section>
+        <!-- VIDEO -->
         <section class="news-section-video">news-section-video</section>
+        <!-- INSTAGRAM -->
         <section class="instagram-section">instagram-section</section>
       </div>
     </main>

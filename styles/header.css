@@ -33,37 +33,3 @@
   width: 16px;
   height: 16px;
 }
-
-.facebook,
-.twitter,
-.instagram,
-.youtube {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-  box-shadow: 0px 1px 1px 0px #0000001a;
-}
-
-.facebook {
-  background-color: var(--facebook-icon-color);
-}
-
-.twitter {
-  background-color: var(--twitter-icon-color);
-}
-
-.instagram {
-  background-color: var(--instagram-icon-color);
-}
-
-.youtube {
-  background-color: var(--youtube-icon-color);
-}
-
-.social-icon {
-  width: 16px;
-  height: 16px;
-}

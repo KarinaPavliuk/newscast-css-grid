@@ -1,4 +1,27 @@
-.news-section-sports {
+.sports-section {
   grid-area: 6 / 1 / 7 / 5;
-  background-color: darkcyan;
+  display: grid;
+  grid-template-columns: 393px auto;
+  grid-template-rows: 48px auto;
+  gap: 40px 30px;
+  margin-bottom: 46px;
+  margin-right: 30px;
+}
+
+.sports-section-header {
+  padding-top: 4px;
+  grid-area: 1 / 1 / 2 / 3;
+  display: grid;
+  grid-template-columns: 140px auto;
+}
+
+.sports-section-navigation {
+  border-bottom: 1px solid #393939;
+  display: grid;
+  grid-template-columns: auto 58px;
+  column-gap: 12px;
+}
+
+.sports-section-navigation-list {
+  grid-template-columns: repeat(7, auto);
 }

@@ -1,4 +1,42 @@
-.news-section-life-style {
+.life-style-section {
+  margin-right: 30px;
+  margin-bottom: 50px;
   grid-area: 7 / 1 / 9 / 5;
-  background-color: lightpink;
+}
+
+.life-style-section-header {
+  padding-top: 4px;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 140px auto;
+}
+
+.life-style-navigation {
+  border-bottom: 1px solid #393939;
+  display: grid;
+  grid-template-columns: auto 58px;
+  column-gap: 12px;
+}
+
+.life-style-navigation-list {
+  grid-template-columns: repeat(5, auto);
+}
+
+.life-style-big-articles-list {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.life-style-big-articles-list img {
+  width: 100%;
+}
+
+.life-style-articles-list {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 30px;
 }

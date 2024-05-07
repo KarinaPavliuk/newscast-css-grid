@@ -1,4 +1,75 @@
-.news-section-entertainment {
+.entertainment-section {
   grid-area: 5 / 1 / 6 / 6;
-  background-color: blanchedalmond;
+  display: grid;
+  grid-template-rows: 42px 450px auto;
+  row-gap: 25px;
+}
+
+.entertainment-section-header {
+  display: grid;
+  grid-template-columns: 140px auto;
+}
+
+.entertainment-main-article {
+  padding: 25px 25px 85px 25px;
+  display: grid;
+  grid-template-rows: 24px auto;
+  align-content: space-between;
+  background-image: url(/images/entertainment-section/girl-in-red.png);
+  color: var(--white-brand-color);
+}
+
+.entertainment-main-article-label {
+  width: 80px;
+  height: 24px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  color: var(--white-brand-color);
+}
+
+.entertainment-main-article-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-family: var(--second-fons-family);
+}
+
+.entertainment-main-article-description {
+  padding-top: 8px;
+  width: 526px;
+}
+
+.entertainment-main-article-description::before {
+  position: relative;
+  display: grid;
+  content: '';
+  width: 80px;
+  height: 1px;
+  top: -8px;
+  background-color: var(--main-brand-color);
+}
+
+.entertainment-content-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+}
+
+.entertainment-content-item {
+  display: grid;
+  grid-template-columns: 130px auto;
+  column-gap: 17px;
+}
+
+.entertainment-image-wrapper {
+  position: relative;
+}
+
+.entertainment-label {
+  padding: 4px 6px;
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  color: var(--white-brand-color);
 }
