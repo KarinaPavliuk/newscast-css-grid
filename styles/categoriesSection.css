@@ -1,4 +1,31 @@
-.news-section-сategories {
+.categories-section {
   grid-area: 8 / 5 / 9 / 6;
-  background-color: lemonchiffon;
+}
+
+.categories-list {
+  display: grid;
+  row-gap: 13px;
+}
+
+.categories-item {
+  display: grid;
+  grid-template-columns: auto 24px;
+  grid-template-rows: 24px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.categories-arrow {
+  width: 8px;
+  height: 10px;
+  margin-right: 12px;
+  fill: #393939;
+}
+
+.categories-count {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  text-align: center;
+  color: var(--white-brand-color);
 }

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
 <defs>
 <!-- icon-arrow -->
-<symbol id="icon-arrow" viewBox="0 0 19 32"><path fill="#fff" d="M0 16 14 2l4 5-9 9 9 9-4 5L0 16z" style="fill:var(--color1, #fff)"/></symbol>
+<symbol id="icon-arrow" viewBox="0 0 19 32"><path d="M0 16 14 2l4 5-9 9 9 9-4 5L0 16z"/></symbol>
 <!-- icon-behance -->
 <symbol id="icon-behance" viewBox="0 0 51 32"><path fill="#fff" d="M16 2a14 14 0 0 1 7 1l1 3 1 3-1 4-3 2 4 3 1 4v4l-3 3-3 1-4 1H2V2h14zm-1 12 3-1 1-3V8l-1-1H9v7h6zm0 12h2a4 4 0 0 0 3-2v-2l-1-3-4-1H9v8h6zm21 0 3 1 3-1 2-1h5l-4 5-6 2-4-1-4-2-2-4v-9l3-4 3-2a12 12 0 0 1 9 0l3 3 2 4v5H34l2 4zm6-11-3-1h-2l-2 1-1 2v1h10l-2-3zM33 4h12v3H33V4z" style="fill:var(--color1, #fff)"/></symbol>
 <!-- icon-clock -->

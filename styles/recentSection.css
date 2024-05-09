@@ -8,7 +8,7 @@
 .recent-section-navigation-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   font-weight: 500;
 }
 

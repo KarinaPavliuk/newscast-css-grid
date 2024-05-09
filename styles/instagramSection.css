@@ -1,4 +1,20 @@
 .instagram-section {
-  grid-area: 10 / 1 / 11 / 6;
-  background-color: teal;
+  grid-area: 12 / 1 / 13 / 6;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.instagram-image {
+  width: 100%;
+}
+
+.follow-wrapper {
+  position: relative;
+}
+
+.follow-image {
+  position: absolute;
+  width: 50%;
+  top: 25%;
+  left: 25%;
 }

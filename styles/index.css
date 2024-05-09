@@ -10,7 +10,7 @@
   --youtube-icon-color: #ef5043;
   --behance-icon-color: #1877f2;
   --dribble-icon-color: #f7679d;
-  --second-fons-family: 'Oswald', sans-serif;
+  --second-font-family: 'Oswald', sans-serif;
 }
 
 p,
@@ -78,7 +78,7 @@ html {
 .main-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr) 270px;
-  grid-template-rows: 141px 85px 620px 517px 692px 552px 220px 696px 818px 288px;
+  grid-template-rows: repeat(11, max-content);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -135,6 +135,22 @@ html {
 
 .violet {
   background-color: #4c60f5;
+}
+
+.red {
+  background-color: #f65050;
+}
+
+.crimson {
+  background-color: #c23785;
+}
+
+.bright-pink {
+  background-color: #f7679d;
+}
+
+.sky-blue {
+  background-color: #42c0f5;
 }
 
 /* FONT SIZES */
@@ -205,7 +221,7 @@ html {
 }
 
 .advertising-text :last-child {
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   font-style: italic;
   color: var(--main-brand-color);
 }
@@ -228,8 +244,18 @@ html {
   grid-template-columns: 140px auto;
 }
 
+.small-section-header {
+  padding-top: 8px;
+  padding-bottom: 18px;
+  margin-bottom: 25px;
+  font-family: var(--second-font-family);
+  font-weight: 500;
+  color: var(--main-brand-color);
+  border-bottom: 1px solid var(--main-brand-color);
+}
+
 .sections-title {
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2em;
@@ -247,7 +273,7 @@ html {
   grid-template-rows: 24px;
   grid-column-gap: 12px;
   justify-content: end;
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   font-size: 12px;
   color: var(--white-brand-color);
 }
@@ -262,7 +288,7 @@ html {
 
 .sections-list-title {
   margin-bottom: 6px;
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   cursor: pointer;
 }
 
@@ -291,6 +317,7 @@ html {
 .arrow-button-icon {
   width: 6px;
   height: 9px;
+  fill: var(--white-brand-color);
 }
 
 .right-arrow {
@@ -302,8 +329,8 @@ html {
 }
 
 .main-article-image-wrapper {
-  position: relative;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .main-article-label {

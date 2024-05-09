@@ -10,7 +10,7 @@
 .navigation-list {
   display: grid;
   grid-template-columns: repeat(9, auto) minmax(auto, 148px);
-  font-family: var(--second-fons-family);
+  font-family: var(--second-font-family);
   font-size: 20px;
   border-right: 1px solid #ffffff4d;
   color: var(--white-brand-color);
