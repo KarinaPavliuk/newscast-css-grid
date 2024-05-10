@@ -56,12 +56,24 @@
   height: 85px;
 }
 
+.footer-tags-wrapper {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  column-gap: 4px;
+}
+
 .footer-tags-list {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 57px));
   grid-template-rows: repeat(2, 24px);
   gap: 2px;
 }
 
 .footer-tags-item {
-  width: max-content;
+  padding: 5px;
+}
+
+.subscribe-description {
+  margin-bottom: 16px;
 }
