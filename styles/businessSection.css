@@ -22,7 +22,7 @@
 .business-section-item:nth-child(1) {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
-  background-image: url('./images/business-section/people-cafe.png');
+  background-image: url('images/business-section/people-cafe.png');
 }
 .business-section-item:nth-child(2) {
   background-image: url('./images/business-section/laptops.png');
