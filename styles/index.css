@@ -211,7 +211,7 @@ html {
   display: grid;
   grid-template-columns: 3fr 1fr;
   align-items: center;
-  background-image: url(/images/advertising.png);
+  background-image: url(./images/advertising.png);
   color: var(--white-brand-color);
 }
 
