@@ -16,7 +16,7 @@
   display: grid;
   grid-template-rows: 24px auto;
   align-content: space-between;
-  background-image: url(/images/entertainment-section/girl-in-red.png);
+  background-image: url(./images/entertainment-section/girl-in-red.png);
   color: var(--white-brand-color);
 }
 
